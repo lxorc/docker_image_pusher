@@ -9,8 +9,8 @@
 #--platform=linux/amd64 eipwork/kuboard:v3.5.2.6
 
 # compass
---platform=linux/amd64 postgres:12
---platform=linux/amd64 zookeeper:3.6.3
---platform=linux/amd64 bitnami/kafka:latest
---platform=linux/amd64 redis:7.2.1
---platform=linux/amd64 opensearchproject/opensearch:1.3.12
+--platform=linux/x86_64 postgres:12
+--platform=linux/x86_64 zookeeper:3.6.3
+--platform=linux/x86_64 bitnami/kafka:latest
+--platform=linux/x86_64 redis:7.2.1
+--platform=linux/x86_64 opensearchproject/opensearch:1.3.12
