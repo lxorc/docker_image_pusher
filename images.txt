@@ -10,6 +10,7 @@
 
 # compass
 #--platform=linux/x86_64 postgres:12
+--platform=linux/x86_64 elasticsearch:7.17.9
 #--platform=linux/x86_64 zookeeper:3.6.3
 #--platform=linux/x86_64 bitnami/kafka:latest
 #--platform=linux/x86_64 redis:7.2.1
@@ -22,4 +23,4 @@
 #--platform=linux/amd64 bde2020/hadoop-datanode:1.1.0-hadoop2.7.1-java8
 #--platform=linux/amd64 bde2020/hadoop-resourcemanager:1.1.0-hadoop2.7.1-java8
 
---platform=linux/amd64 docker.io/library/eclipse-temurin:8-focal
+#--platform=linux/amd64 docker.io/library/eclipse-temurin:8-focal
