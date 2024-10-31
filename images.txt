@@ -1,2 +1,1 @@
 --platform=linux/arm64 mysql:latest
-docker pull registry.cn-hangzhou.aliyuncs.com/kami123/linux_arm64_mysql:latest

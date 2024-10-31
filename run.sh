@@ -17,7 +17,7 @@ image_name_tag=$1
 
 # 写入文件
 echo "--platform=linux/arm64 $1" > images.txt
-echo "docker pull $ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/${platform_prefix}${name_space_prefix}$image_name_tag" >> images.txt
+echo "docker pull $ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/${platform_prefix}${name_space_prefix}$image_name_tag"
 
 # git操作
 git add .
