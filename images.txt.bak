@@ -1,0 +1,31 @@
+#支持私库
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#支持指定架构
+#--platform=linux/arm64 xiaoyaliu/alist
+#
+#--platform=linux/amd64 bitnami/minio:2023.3.24
+#--platform=linux/amd64 bitnami/redis:7.0.10
+#--platform=linux/amd64 datastrato/gravitino:0.5.0
+#--platform=linux/amd64 eipwork/kuboard:v3.5.2.6
+--platform=linux/arm64 mysql:8.0.23
+
+# compass
+#--platform=linux/x86_64 postgres:12
+--platform=linux/x86_64 elasticsearch:7.17.9
+#--platform=linux/x86_64 zookeeper:3.6.3
+#--platform=linux/x86_64 bitnami/kafka:latest
+#--platform=linux/x86_64 redis:7.2.1
+#--platform=linux/x86_64 opensearchproject/opensearch:1.3.12
+# --platform=linux/amd64 eclipse-temurin:8-focal
+
+#--platform=linux/amd64 bde2020/hadoop-namenode:1.1.0-hadoop2.7.1-java8
+#--platform=linux/amd64 bde2020/hadoop-historyserver:1.1.0-hadoop2.7.1-java8
+#--platform=linux/amd64 bde2020/hadoop-nodemanager:1.1.0-hadoop2.7.1-java8
+#--platform=linux/amd64 bde2020/hadoop-datanode:1.1.0-hadoop2.7.1-java8
+#--platform=linux/amd64 bde2020/hadoop-resourcemanager:1.1.0-hadoop2.7.1-java8
+
+#--platform=linux/amd64 docker.io/library/eclipse-temurin:8-focal
+--platform=linux/arm64 mysql:8.0.23
+docker pull registry.cn-hangzhou.aliyuncs.com/kami123/linux_arm64_mysql:8.0.23
+--platform=linux/arm64 mysql:8.0.23
+docker pull registry.cn-hangzhou.aliyuncs.com/kami123/linux_arm64_mysql:8.0.23
