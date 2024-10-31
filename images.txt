@@ -27,3 +27,5 @@
 #--platform=linux/amd64 docker.io/library/eclipse-temurin:8-focal
 --platform=linux/arm64 mysql:8.0.23
 docker pull registry.cn-hangzhou.aliyuncs.com/kami123/linux_arm64_mysql:8.0.23
+--platform=linux/arm64 mysql:8.0.23
+docker pull registry.cn-hangzhou.aliyuncs.com/kami123/linux_arm64_mysql:8.0.23
