@@ -1,1 +1,1 @@
---platform=linux/arm64 mysql:latest
+--platform=linux/arm64 dyrnq/open-webui:main
