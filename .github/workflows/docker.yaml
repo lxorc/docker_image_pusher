@@ -155,3 +155,11 @@ jobs:
             echo "=============================================================================="     
             
         done < images.txt
+
+        curl -X "POST" "https://sctapi.ftqq.com/SCT5126TA-iOORVUS0pWIYYsPfnK0JM0jm.send" -H 'Content-Type: application/json;charset=utf-8' \
+        -d $'{
+            "title": "测试消息标题",
+            "desp": "这是消息内容，支持**Markdown**语法",
+            "short": "消息卡片内容摘要"
+        }'
+
