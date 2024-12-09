@@ -155,3 +155,14 @@ jobs:
             echo "=============================================================================="     
             
         done < images.txt
+
+        curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=c65631e2-520e-4afb-a6fe-226cc8e9386b' \
+           -H 'Content-Type: application/json' \
+           -d '
+           {
+            	"msgtype": "text",
+            	"text": {
+                	"content": "镜像推送完成"
+            	}
+           }'
+
