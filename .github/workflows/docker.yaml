@@ -156,10 +156,13 @@ jobs:
             
         done < images.txt
 
-        curl -X "POST" "https://sctapi.ftqq.com/SCT5126TA-iOORVUS0pWIYYsPfnK0JM0jm.send" -H 'Content-Type: application/json;charset=utf-8' \
-        -d $'{
-            "title": "测试消息标题",
-            "desp": "这是消息内容，支持**Markdown**语法",
-            "short": "消息卡片内容摘要"
-        }'
+        curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=c65631e2-520e-4afb-a6fe-226cc8e9386b' \
+           -H 'Content-Type: application/json' \
+           -d '
+           {
+            	"msgtype": "text",
+            	"text": {
+                	"content": "镜像推送完成"
+            	}
+           }'
 
