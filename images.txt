@@ -1,1 +1,1 @@
---platform=linux/amd64 centos:7
+--platform=amd64 centos:7
