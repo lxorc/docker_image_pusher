@@ -1,1 +1,1 @@
---platform=linux/arm64 python:3.11-bookworm
+--platform=linux/arm64 python:3.12-bookworm
