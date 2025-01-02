@@ -1,1 +1,1 @@
---platform=linux/i386 centos:8
+--platform=linux/i386 mcr.microsoft.com/playwright/python:v1.46.0-noble
