@@ -15,9 +15,14 @@ name_space_prefix=""
 # 获取镜像名和tag
 image_name_tag=$1
 
+image_name_arch="linux/arm64"
+
+if [ $# -eq 2 ]; then
+    image_name_arch=$2
+fi
+
 # 写入文件
-echo "--platform=linux/arm64 $1" > images.txt
-echo "--platform=linux/amd64 $1" > images.txt
+echo "--platform=${image_name_arch} $1" > images.txt
 echo "docker pull $ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/${platform_prefix}${name_space_prefix}$image_name_tag"
 
 # git操作
