@@ -1,1 +1,1 @@
---platform=linux/amd64 kevinyouu/qwertylearner:latest
+--platform=linux/x86_64 centos:centos7
