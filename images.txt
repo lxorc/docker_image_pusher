@@ -1,1 +1,1 @@
---platform=linux/x86_64 kasmweb/chrome:1.16.1
+--platform=linux/amd64 dokken/ubuntu-24.04:latest
