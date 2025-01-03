@@ -1,1 +1,1 @@
---platform=linux/x86_64 python:3.12-bookworm
+--platform=linux/x86_64 kasmweb/chrome:1.16.1
