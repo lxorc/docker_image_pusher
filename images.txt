@@ -1,1 +1,1 @@
---platform=linux/arm64 wurstmeister/zookeeper:latest
+--platform=linux/arm64 confluentinc/cp-kafka:7.3.2
