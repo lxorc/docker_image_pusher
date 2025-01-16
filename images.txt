@@ -1,1 +1,1 @@
---platform=linux/arm64 confluentinc/cp-kafka:7.3.2
+--platform=linux/arm64 wurstmeister/kafka:latest
