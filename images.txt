@@ -1,1 +1,1 @@
---platform=linux/arm64 wurstmeister/kafka:latest
+--platform=linux/arm64 wurstmeister/zookeeper:latest
