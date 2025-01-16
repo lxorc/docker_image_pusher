@@ -1,1 +1,1 @@
---platform=linux/amd64 dokken/ubuntu-24.04:latest
+--platform=linux/arm64 wurstmeister/zookeeper:latest
