@@ -1,1 +1,1 @@
---platform=linux/amd64 wcooderl/wewe-rss-sqlite:latest
+--platform=linux/amd64 cooderl/wewe-rss-sqlite:latest
