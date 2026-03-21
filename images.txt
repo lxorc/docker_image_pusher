@@ -1,1 +1,1 @@
---platform=linux/amd64 ghcr.io/wechat-article/wechat-article-exporter
+--platform=linux/amd64 nginx:alpine
