@@ -1,6 +1,1 @@
---platform=linux/x86_64 bde2020/hadoop-namenode:2.0.0-hadoop2.7.4-java8
---platform=linux/x86_64 bde2020/hadoop-datanode:2.0.0-hadoop2.7.4-java8
---platform=linux/x86_64 bde2020/hive:2.3.2-postgresql-metastore
---platform=linux/x86_64 bde2020/hive:2.3.2-postgresql-metastore
---platform=linux/x86_64 bde2020/hive-metastore-postgresql:2.3.0
---platform=linux/x86_64 shawnzhu/prestodb:0.181
+--platform=linux/amd64 ghcr.io/wechat-article/wechat-article-exporter
